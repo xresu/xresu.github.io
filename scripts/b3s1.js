@@ -10,6 +10,6 @@ let link = {
   },
 }
 
-function link( module ) {
+function lien( module ) {
   return link[module].link;
 }
