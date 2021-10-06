@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Yep</title>
+    <script src="https://xresu.github.io/scripts/b3s1.js"></script>
+  </head>
+  <body>
+    <div>
+    <script type="text/javascript">
+    // Ici on apelle la fonction
+    //let url = new URL(document.location); //chopper l'url de la page
+    //let params = url.searchParams; // pour pouvoir faire des .get("param")
+    
+      let module = url.search; // toute la chaine derrière le ?
+    
+    //let mat = module.substring(1,5); // chopper 4 caractères après le ? --> c'est mon 1er param
+    //let mod = params.get( mat ); // chopper la valeur du param
+    //alert( lien( mat, mod ) );
+    
+      window.location =  link( module ); // retrouver le lien long
+      
+      </script>
+      <h1>Erreur mauvais lien</h1>
+      <!--
+      <a href="./link.html?B3S1=C1">B3S1=C1</a><br/>
+      //<a href="./link.html?B3S1=C2">B3S1=C2</a>
+      -->
+    </div>
+  </body>
+</html>
