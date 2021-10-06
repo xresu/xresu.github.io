@@ -8,16 +8,16 @@
     <div>
     <script>
     // Ici on apelle la fonction
-    //let url = new URL(document.location); //chopper l'url de la page
+    let url = new URL(document.location); //chopper l'url de la page
     //let params = url.searchParams; // pour pouvoir faire des .get("param")
     
-      let module = url.search; // toute la chaine derrière le ?
+    let module = url.search.substring(1); // toute la chaine derrière le ?
     
     //let mat = module.substring(1,5); // chopper 4 caractères après le ? --> c'est mon 1er param
     //let mod = params.get( mat ); // chopper la valeur du param
     //alert( lien( mat, mod ) );
     
-      window.location =  link( module ); // retrouver le lien long
+      window.location =  lien( module ); // retrouver le lien long
       
       </script>
       <h1>Erreur mauvais lien v3</h1>
