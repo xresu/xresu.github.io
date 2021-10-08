@@ -105,3 +105,7 @@
 function lien( module ) {
   return link[module].link;
 }
+
+function libelle( module ) {
+  return link[module].desc;
+}
